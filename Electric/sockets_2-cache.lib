@@ -1,0 +1,76 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Conn_01x03_Female
+#
+DEF Connector_Conn_01x03_Female J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x03_Female" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_CircuitBreaker_1P
+#
+DEF Device_CircuitBreaker_1P CB 0 20 Y Y 1 F N
+F0 "CB" 75 0 50 H V L CNN
+F1 "Device_CircuitBreaker_1P" 75 75 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 0 -200 0 -150 N
+P 2 0 1 0 0 -150 -100 150 N
+P 2 1 1 0 -25 175 25 125 N
+P 2 1 1 0 0 200 0 150 N
+P 2 1 1 0 25 175 -25 125 N
+X ~ 1 0 300 100 D 50 50 1 1 P
+X ~ 2 0 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Relay_SILxx-1Axx-71x
+#
+DEF Relay_SILxx-1Axx-71x K 0 20 Y Y 1 F N
+F0 "K" 350 150 50 H V L CNN
+F1 "Relay_SILxx-1Axx-71x" 350 50 50 H V L CNN
+F2 "Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A" 350 -50 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Relay*SPST*StandexMeder*SIL*Form1A*
+$ENDFPLIST
+DRAW
+S -400 200 300 -200 0 1 10 f
+S -325 75 -75 -75 0 1 10 N
+P 4 0 0 0 200 200 200 100 175 125 200 150 N
+P 2 0 1 10 -300 -75 -100 75 N
+P 2 0 1 0 -200 -200 -200 -75 N
+P 2 0 1 0 -200 200 -200 75 N
+P 2 0 1 10 -75 0 -50 0 N
+P 2 0 1 10 -25 0 0 0 N
+P 2 0 1 10 25 0 50 0 N
+P 2 0 1 10 75 0 100 0 N
+P 2 0 1 10 125 0 150 0 N
+P 2 0 1 20 200 -100 125 150 N
+P 2 0 1 0 200 -100 200 -200 N
+X ~ 1 200 -300 100 U 50 50 1 1 P
+X ~ 3 -200 -300 100 U 50 50 1 1 P
+X ~ 5 -200 300 100 D 50 50 1 1 P
+X ~ 7 200 300 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

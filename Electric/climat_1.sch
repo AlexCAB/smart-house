@@ -1,0 +1,1172 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Климат, лист 1"
+Date "2021-06-16"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Entry Wire Line
+	7600 2150 7700 2250
+Entry Wire Line
+	7600 1950 7700 2050
+Entry Wire Line
+	7600 2050 7700 2150
+Entry Wire Line
+	7500 2250 7600 2350
+Entry Wire Line
+	7500 2350 7600 2450
+Entry Wire Line
+	7500 2450 7600 2550
+Entry Wire Line
+	7100 2900 7200 2800
+Entry Wire Line
+	7100 2800 7200 2700
+Entry Wire Line
+	2650 5200 2750 5300
+Entry Wire Line
+	2650 5100 2750 5200
+Entry Wire Line
+	2650 5000 2750 5100
+Entry Wire Line
+	2650 4150 2750 4250
+Entry Wire Line
+	2650 4050 2750 4150
+Entry Wire Line
+	2650 3950 2750 4050
+Entry Wire Line
+	2650 3100 2750 3200
+Entry Wire Line
+	2650 3000 2750 3100
+Entry Wire Line
+	2650 2900 2750 3000
+Entry Wire Line
+	2650 2100 2750 2200
+Entry Wire Line
+	2650 2000 2750 2100
+Entry Wire Line
+	2650 1900 2750 2000
+Entry Wire Line
+	2650 1000 2750 900 
+Entry Wire Line
+	2650 1100 2750 1000
+Entry Wire Line
+	2650 1200 2750 1100
+Connection ~ 3000 2550
+Wire Wire Line
+	3000 1600 2650 1600
+Wire Wire Line
+	3000 2550 3000 1600
+Connection ~ 3000 3600
+Wire Wire Line
+	3000 2550 2650 2550
+Wire Wire Line
+	3000 3600 3000 2550
+Connection ~ 3000 4650
+Wire Wire Line
+	3000 3600 2650 3600
+Wire Wire Line
+	3000 4650 3000 3600
+Wire Wire Line
+	3000 4650 2650 4650
+Wire Wire Line
+	3000 5700 3000 4650
+Wire Wire Line
+	2650 5700 3000 5700
+Wire Wire Line
+	3250 1500 2650 1500
+Wire Wire Line
+	1150 5600 1200 5600
+Wire Wire Line
+	1150 5500 1150 5600
+Wire Wire Line
+	1750 5500 1150 5500
+Wire Wire Line
+	1750 5600 1500 5600
+Wire Wire Line
+	1600 5700 1750 5700
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60CEE75E
+P 1600 5700
+F 0 "#PWR?" H 1600 5450 50  0001 C CNN
+F 1 "GNDREF" H 1605 5527 50  0001 C CNN
+F 2 "" H 1600 5700 50  0001 C CNN
+F 3 "" H 1600 5700 50  0001 C CNN
+	1    1600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Heater R?
+U 1 1 60CEE758
+P 1350 5600
+F 0 "R?" V 1143 5600 50  0001 C CNN
+F 1 "Heater" V 1235 5600 50  0001 C CNN
+F 2 "" V 1280 5600 50  0001 C CNN
+F 3 "~" H 1350 5600 50  0001 C CNN
+	1    1350 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 60CEE752
+P 1950 5600
+F 0 "J?" H 1978 5626 50  0001 L CNN
+F 1 "Conn_01x03_Female" H 1978 5580 50  0001 L CNN
+F 2 "" H 1950 5600 50  0001 C CNN
+F 3 "~" H 1950 5600 50  0001 C CNN
+	1    1950 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 4550 1200 4550
+Wire Wire Line
+	1150 4450 1150 4550
+Wire Wire Line
+	1750 4450 1150 4450
+Wire Wire Line
+	1750 4550 1500 4550
+Wire Wire Line
+	1600 4650 1750 4650
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60CEBDED
+P 1600 4650
+F 0 "#PWR?" H 1600 4400 50  0001 C CNN
+F 1 "GNDREF" H 1605 4477 50  0001 C CNN
+F 2 "" H 1600 4650 50  0001 C CNN
+F 3 "" H 1600 4650 50  0001 C CNN
+	1    1600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Heater R?
+U 1 1 60CEBDE7
+P 1350 4550
+F 0 "R?" V 1143 4550 50  0001 C CNN
+F 1 "Heater" V 1235 4550 50  0001 C CNN
+F 2 "" V 1280 4550 50  0001 C CNN
+F 3 "~" H 1350 4550 50  0001 C CNN
+	1    1350 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 60CEBDE1
+P 1950 4550
+F 0 "J?" H 1978 4576 50  0001 L CNN
+F 1 "Conn_01x03_Female" H 1978 4530 50  0001 L CNN
+F 2 "" H 1950 4550 50  0001 C CNN
+F 3 "~" H 1950 4550 50  0001 C CNN
+	1    1950 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 3500 1200 3500
+Wire Wire Line
+	1150 3400 1150 3500
+Wire Wire Line
+	1750 3400 1150 3400
+Wire Wire Line
+	1750 3500 1500 3500
+Wire Wire Line
+	1600 3600 1750 3600
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60CE9D8F
+P 1600 3600
+F 0 "#PWR?" H 1600 3350 50  0001 C CNN
+F 1 "GNDREF" H 1605 3427 50  0001 C CNN
+F 2 "" H 1600 3600 50  0001 C CNN
+F 3 "" H 1600 3600 50  0001 C CNN
+	1    1600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Heater R?
+U 1 1 60CE9D89
+P 1350 3500
+F 0 "R?" V 1143 3500 50  0001 C CNN
+F 1 "Heater" V 1235 3500 50  0001 C CNN
+F 2 "" V 1280 3500 50  0001 C CNN
+F 3 "~" H 1350 3500 50  0001 C CNN
+	1    1350 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 60CE9D83
+P 1950 3500
+F 0 "J?" H 1978 3526 50  0001 L CNN
+F 1 "Conn_01x03_Female" H 1978 3480 50  0001 L CNN
+F 2 "" H 1950 3500 50  0001 C CNN
+F 3 "~" H 1950 3500 50  0001 C CNN
+	1    1950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2450 1200 2450
+Wire Wire Line
+	1150 2350 1150 2450
+Wire Wire Line
+	1750 2350 1150 2350
+Wire Wire Line
+	1750 2450 1500 2450
+Wire Wire Line
+	1600 2550 1750 2550
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60CE8219
+P 1600 2550
+F 0 "#PWR?" H 1600 2300 50  0001 C CNN
+F 1 "GNDREF" H 1605 2377 50  0001 C CNN
+F 2 "" H 1600 2550 50  0001 C CNN
+F 3 "" H 1600 2550 50  0001 C CNN
+	1    1600 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Heater R?
+U 1 1 60CE8213
+P 1350 2450
+F 0 "R?" V 1143 2450 50  0001 C CNN
+F 1 "Heater" V 1235 2450 50  0001 C CNN
+F 2 "" V 1280 2450 50  0001 C CNN
+F 3 "~" H 1350 2450 50  0001 C CNN
+	1    1350 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 60CE820D
+P 1950 2450
+F 0 "J?" H 1978 2476 50  0001 L CNN
+F 1 "Conn_01x03_Female" H 1978 2430 50  0001 L CNN
+F 2 "" H 1950 2450 50  0001 C CNN
+F 3 "~" H 1950 2450 50  0001 C CNN
+	1    1950 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1500 1200 1500
+Wire Wire Line
+	1150 1400 1150 1500
+Wire Wire Line
+	1750 1400 1150 1400
+Wire Wire Line
+	1750 1500 1500 1500
+Wire Wire Line
+	1600 1600 1750 1600
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60CE1C18
+P 1600 1600
+F 0 "#PWR?" H 1600 1350 50  0001 C CNN
+F 1 "GNDREF" H 1605 1427 50  0001 C CNN
+F 2 "" H 1600 1600 50  0001 C CNN
+F 3 "" H 1600 1600 50  0001 C CNN
+	1    1600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Heater R?
+U 1 1 60CDFD79
+P 1350 1500
+F 0 "R?" V 1143 1500 50  0001 C CNN
+F 1 "Heater" V 1235 1500 50  0001 C CNN
+F 2 "" V 1280 1500 50  0001 C CNN
+F 3 "~" H 1350 1500 50  0001 C CNN
+	1    1350 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male JК1_7
+U 1 1 60CAF4C7
+P 2450 4050
+F 0 "JК1_7" H 1950 4250 50  0000 C CNN
+F 1 "ТП_коридор_ДТ" H 2400 4250 50  0000 C CNN
+F 2 "" H 2450 4050 50  0001 C CNN
+F 3 "~" H 2450 4050 50  0001 C CNN
+	1    2450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male JК1_8
+U 1 1 60CAF9FA
+P 2450 4550
+F 0 "JК1_8" H 1900 4750 50  0000 C CNN
+F 1 "ТП_коридор_ТЭН" H 2350 4750 50  0000 C CNN
+F 2 "" H 2450 4550 50  0001 C CNN
+F 3 "~" H 2450 4550 50  0001 C CNN
+	1    2450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male JК1_9
+U 1 1 60CAFEA2
+P 2450 5100
+F 0 "JК1_9" H 2000 5300 50  0000 C CNN
+F 1 "ТП_ванна_ДТ" H 2400 5300 50  0000 C CNN
+F 2 "" H 2450 5100 50  0001 C CNN
+F 3 "~" H 2450 5100 50  0001 C CNN
+	1    2450 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 60CD9994
+P 1950 4050
+F 0 "J?" H 1978 4076 50  0001 L CNN
+F 1 "Conn_01x03_Female" H 1978 4030 50  0001 L CNN
+F 2 "" H 1950 4050 50  0001 C CNN
+F 3 "~" H 1950 4050 50  0001 C CNN
+	1    1950 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 60CDB4DF
+P 1950 5100
+F 0 "J?" H 1978 5126 50  0001 L CNN
+F 1 "Conn_01x03_Female" H 1978 5080 50  0001 L CNN
+F 2 "" H 1950 5100 50  0001 C CNN
+F 3 "~" H 1950 5100 50  0001 C CNN
+	1    1950 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  5000 1050 5000
+Wire Wire Line
+	950  5200 950  5000
+Wire Wire Line
+	1750 5200 950  5200
+Wire Wire Line
+	1550 5100 1750 5100
+Wire Wire Line
+	1550 5000 1750 5000
+$Comp
+L Device:Thermistor_NTC_3wire TH?
+U 1 1 60CDB4E5
+P 1300 5000
+F 0 "TH?" V 1010 5000 50  0001 C CNN
+F 1 "Thermistor_NTC_3wire" V 1101 5000 50  0001 C CNN
+F 2 "" H 1300 5050 50  0001 C CNN
+F 3 "~" H 1300 5050 50  0001 C CNN
+	1    1300 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	950  3950 1050 3950
+Wire Wire Line
+	950  4150 950  3950
+Wire Wire Line
+	1750 4150 950  4150
+Wire Wire Line
+	1550 4050 1750 4050
+Wire Wire Line
+	1550 3950 1750 3950
+$Comp
+L Device:Thermistor_NTC_3wire TH?
+U 1 1 60CD999A
+P 1300 3950
+F 0 "TH?" V 1010 3950 50  0001 C CNN
+F 1 "Thermistor_NTC_3wire" V 1101 3950 50  0001 C CNN
+F 2 "" H 1300 4000 50  0001 C CNN
+F 3 "~" H 1300 4000 50  0001 C CNN
+	1    1300 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male JК1_3
+U 1 1 60CADB39
+P 2450 2000
+F 0 "JК1_3" H 2000 2200 50  0000 C CNN
+F 1 "ТП_лоджия_ДТ" H 2400 2200 50  0000 C CNN
+F 2 "" H 2450 2000 50  0001 C CNN
+F 3 "~" H 2450 2000 50  0001 C CNN
+	1    2450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male JК1_5
+U 1 1 60CAE9B3
+P 2450 3000
+F 0 "JК1_5" H 2050 3200 50  0000 C CNN
+F 1 "ТП_кухня_ДТ" H 2450 3200 50  0000 C CNN
+F 2 "" H 2450 3000 50  0001 C CNN
+F 3 "~" H 2450 3000 50  0001 C CNN
+	1    2450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male JК1_4
+U 1 1 60CAE40B
+P 2450 2450
+F 0 "JК1_4" H 1950 2650 50  0000 C CNN
+F 1 "ТП_лотжия_ТЭН" H 2400 2650 50  0000 C CNN
+F 2 "" H 2450 2450 50  0001 C CNN
+F 3 "~" H 2450 2450 50  0001 C CNN
+	1    2450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 60CD47FE
+P 1950 2000
+F 0 "J?" H 1978 2026 50  0001 L CNN
+F 1 "Conn_01x03_Female" H 1978 1980 50  0001 L CNN
+F 2 "" H 1950 2000 50  0001 C CNN
+F 3 "~" H 1950 2000 50  0001 C CNN
+	1    1950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 60CD6D85
+P 1950 3000
+F 0 "J?" H 1978 3026 50  0001 L CNN
+F 1 "Conn_01x03_Female" H 1978 2980 50  0001 L CNN
+F 2 "" H 1950 3000 50  0001 C CNN
+F 3 "~" H 1950 3000 50  0001 C CNN
+	1    1950 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  2900 1050 2900
+Wire Wire Line
+	950  3100 950  2900
+Wire Wire Line
+	1750 3100 950  3100
+Wire Wire Line
+	1550 3000 1750 3000
+Wire Wire Line
+	1550 2900 1750 2900
+$Comp
+L Device:Thermistor_NTC_3wire TH?
+U 1 1 60CD6D8B
+P 1300 2900
+F 0 "TH?" V 1010 2900 50  0001 C CNN
+F 1 "Thermistor_NTC_3wire" V 1101 2900 50  0001 C CNN
+F 2 "" H 1300 2950 50  0001 C CNN
+F 3 "~" H 1300 2950 50  0001 C CNN
+	1    1300 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	950  1900 1050 1900
+Wire Wire Line
+	950  2100 950  1900
+Wire Wire Line
+	1750 2100 950  2100
+Wire Wire Line
+	1550 2000 1750 2000
+Wire Wire Line
+	1550 1900 1750 1900
+$Comp
+L Device:Thermistor_NTC_3wire TH?
+U 1 1 60CD4804
+P 1300 1900
+F 0 "TH?" V 1010 1900 50  0001 C CNN
+F 1 "Thermistor_NTC_3wire" V 1101 1900 50  0001 C CNN
+F 2 "" H 1300 1950 50  0001 C CNN
+F 3 "~" H 1300 1950 50  0001 C CNN
+	1    1300 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	950  1000 1050 1000
+Wire Wire Line
+	950  1200 950  1000
+Wire Wire Line
+	1750 1200 950  1200
+Wire Wire Line
+	1550 1100 1750 1100
+Wire Wire Line
+	1550 1000 1750 1000
+$Comp
+L Device:Thermistor_NTC_3wire TH?
+U 1 1 60CCDF35
+P 1300 1000
+F 0 "TH?" V 1010 1000 50  0001 C CNN
+F 1 "Thermistor_NTC_3wire" V 1101 1000 50  0001 C CNN
+F 2 "" H 1300 1050 50  0001 C CNN
+F 3 "~" H 1300 1050 50  0001 C CNN
+	1    1300 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 60CC8FCC
+P 1950 1500
+F 0 "J?" H 1978 1526 50  0001 L CNN
+F 1 "Conn_01x03_Female" H 1978 1480 50  0001 L CNN
+F 2 "" H 1950 1500 50  0001 C CNN
+F 3 "~" H 1950 1500 50  0001 C CNN
+	1    1950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J
+U 1 1 60CC5C0C
+P 1950 1100
+F 0 "J" H 1978 1126 50  0001 L CNN
+F 1 "Conn_01x03_Female" H 1978 1080 50  0001 L CNN
+F 2 "" H 1950 1100 50  0001 C CNN
+F 3 "~" H 1950 1100 50  0001 C CNN
+	1    1950 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male JК1_10
+U 1 1 60CB049E
+P 2450 5600
+F 0 "JК1_10" H 1950 5800 50  0000 C CNN
+F 1 "ТП_ванна_ТЭН" H 2400 5800 50  0000 C CNN
+F 2 "" H 2450 5600 50  0001 C CNN
+F 3 "~" H 2450 5600 50  0001 C CNN
+	1    2450 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male JК1_6
+U 1 1 60CAF021
+P 2450 3500
+F 0 "JК1_6" H 2000 3700 50  0000 C CNN
+F 1 "ТП_кухня_ТЭН" H 2400 3700 50  0000 C CNN
+F 2 "" H 2450 3500 50  0001 C CNN
+F 3 "~" H 2450 3500 50  0001 C CNN
+	1    2450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male JК1_2
+U 1 1 60CAD47F
+P 2450 1500
+F 0 "JК1_2" H 1900 1700 50  0000 C CNN
+F 1 "ТП_комната_ТЭН" H 2350 1700 50  0000 C CNN
+F 2 "" H 2450 1500 50  0001 C CNN
+F 3 "~" H 2450 1500 50  0001 C CNN
+	1    2450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male JК1_1
+U 1 1 60CA9DC4
+P 2450 1100
+F 0 "JК1_1" H 1950 1300 50  0000 C CNN
+F 1 "ТП_комната_ДТ" H 2400 1300 50  0000 C CNN
+F 2 "" H 2450 1100 50  0001 C CNN
+F 3 "~" H 2450 1100 50  0001 C CNN
+	1    2450 1100
+	1    0    0    -1  
+$EndComp
+Text GLabel 3000 800  1    50   Input ~ 0
+PE
+Text GLabel 6450 800  1    50   Input ~ 0
+F3
+Text GLabel 6300 800  1    50   Input ~ 0
+F2
+Text GLabel 6150 800  1    50   Input ~ 0
+F1
+Wire Wire Line
+	3000 800  3000 1600
+Connection ~ 3000 1600
+Text GLabel 10550 2050 2    50   Input ~ 0
+P+_PLC
+$Comp
+L Device:CircuitBreaker_1P CBК1_1
+U 1 1 60FC6F6F
+P 5700 1400
+F 0 "CBК1_1" V 5550 1300 50  0000 C CNN
+F 1 "16А" V 5550 1650 50  0000 C CNN
+F 2 "" H 5700 1400 50  0001 C CNN
+F 3 "~" H 5700 1400 50  0001 C CNN
+	1    5700 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CircuitBreaker_1P CBК1_2
+U 1 1 60FD7FDD
+P 5700 2350
+F 0 "CBК1_2" V 5550 2250 50  0000 C CNN
+F 1 "10А" V 5550 2600 50  0000 C CNN
+F 2 "" H 5700 2350 50  0001 C CNN
+F 3 "~" H 5700 2350 50  0001 C CNN
+	1    5700 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CircuitBreaker_1P CBК1_4
+U 1 1 60FDCC89
+P 5700 4450
+F 0 "CBК1_4" V 5550 4350 50  0000 C CNN
+F 1 "10А" V 5550 4700 50  0000 C CNN
+F 2 "" H 5700 4450 50  0001 C CNN
+F 3 "~" H 5700 4450 50  0001 C CNN
+	1    5700 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:SILxx-1Axx-71x KК1_1
+U 1 1 60FE8306
+P 4550 1600
+F 0 "KК1_1" V 4900 1600 50  0000 C CNN
+F 1 "SILxx-1Axx-71x" V 4950 1700 50  0001 C CNN
+F 2 "Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A" H 4900 1550 50  0001 L CNN
+F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf" H 4550 1600 50  0001 C CNN
+	1    4550 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Relay:SILxx-1Axx-71x KК1_2
+U 1 1 60FF6BFE
+P 4550 2550
+F 0 "KК1_2" V 4900 2550 50  0000 C CNN
+F 1 "SILxx-1Axx-71x" V 4950 2650 50  0001 C CNN
+F 2 "Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A" H 4900 2500 50  0001 L CNN
+F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf" H 4550 2550 50  0001 C CNN
+	1    4550 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Relay:SILxx-1Axx-71x KК1_3
+U 1 1 60FFBCAD
+P 4550 3600
+F 0 "KК1_3" V 4900 3600 50  0000 C CNN
+F 1 "SILxx-1Axx-71x" V 4950 3700 50  0001 C CNN
+F 2 "Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A" H 4900 3550 50  0001 L CNN
+F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf" H 4550 3600 50  0001 C CNN
+	1    4550 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Relay:SILxx-1Axx-71x KК1_4
+U 1 1 61000F65
+P 4550 4650
+F 0 "KК1_4" V 4900 4650 50  0000 C CNN
+F 1 "SILxx-1Axx-71x" V 4950 4750 50  0001 C CNN
+F 2 "Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A" H 4900 4600 50  0001 L CNN
+F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf" H 4550 4650 50  0001 C CNN
+	1    4550 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Relay:SILxx-1Axx-71x KК1_5
+U 1 1 61006986
+P 4550 5700
+F 0 "KК1_5" V 4900 5700 50  0000 C CNN
+F 1 "SILxx-1Axx-71x" V 4950 5800 50  0001 C CNN
+F 2 "Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A" H 4900 5650 50  0001 L CNN
+F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf" H 4550 5700 50  0001 C CNN
+	1    4550 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4850 5500 5000 5500
+Wire Wire Line
+	5000 5500 5000 4450
+Wire Wire Line
+	5000 4450 4850 4450
+Wire Wire Line
+	4850 1400 5400 1400
+Wire Wire Line
+	5000 4450 5400 4450
+Connection ~ 5000 4450
+Entry Wire Line
+	5100 5900 5200 5800
+Entry Wire Line
+	5100 4850 5200 4750
+Entry Wire Line
+	5100 3800 5200 3700
+Entry Wire Line
+	5100 2750 5200 2650
+Entry Wire Line
+	5100 1800 5200 1700
+Wire Wire Line
+	4850 1800 5100 1800
+Wire Wire Line
+	4850 2750 5100 2750
+Wire Wire Line
+	4850 3800 5100 3800
+Wire Wire Line
+	4850 4850 5100 4850
+Wire Wire Line
+	4850 5900 5100 5900
+Wire Wire Line
+	6150 800  6150 1400
+Wire Wire Line
+	6150 1400 6000 1400
+Wire Wire Line
+	6300 800  6300 2350
+Wire Wire Line
+	6300 2350 6000 2350
+Wire Wire Line
+	6450 800  6450 4450
+Wire Wire Line
+	6450 4450 6000 4450
+Entry Wire Line
+	7300 3650 7400 3550
+Entry Wire Line
+	7200 3100 7300 3000
+Entry Wire Line
+	7200 3200 7300 3100
+Entry Wire Line
+	7100 3000 7200 2900
+$Comp
+L climat_1-rescue:МВ110-8А-plc U2
+U 1 1 60D1FB3B
+P 9200 2000
+F 0 "U2" H 9200 2365 50  0000 C CNN
+F 1 "МВ110-8А" H 9200 2274 50  0000 C CNN
+F 2 "" H 9200 2000 50  0001 C CNN
+F 3 "" H 9200 2000 50  0001 C CNN
+	1    9200 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 2050 8350 2050
+Wire Wire Line
+	7700 2150 8350 2150
+Wire Wire Line
+	7600 2450 8350 2450
+Wire Wire Line
+	7600 2550 8350 2550
+Wire Wire Line
+	7900 2350 7600 2350
+Wire Wire Line
+	7900 2300 8350 2300
+Wire Wire Line
+	7900 2300 7900 2350
+Wire Wire Line
+	7200 2800 8350 2800
+Wire Wire Line
+	7200 2700 8350 2700
+Wire Wire Line
+	7300 3100 8350 3100
+Wire Wire Line
+	7300 3200 8350 3200
+Wire Wire Line
+	7400 3000 7300 3000
+Wire Wire Line
+	8350 2950 7400 2950
+Wire Wire Line
+	7400 2950 7400 3000
+Entry Wire Line
+	7200 3300 7300 3200
+Wire Wire Line
+	7200 2900 7400 2900
+Wire Wire Line
+	7400 2900 7400 2950
+Connection ~ 7400 2950
+Wire Wire Line
+	7700 2250 7900 2250
+Wire Wire Line
+	7900 2250 7900 2300
+Connection ~ 7900 2300
+Text GLabel 10550 2700 2    50   Input ~ 0
+PLC_RS-485
+Entry Wire Line
+	10050 2400 10150 2500
+Entry Wire Line
+	10050 2500 10150 2600
+Text GLabel 5200 800  1    50   Input ~ 0
+ТП_К1
+Text GLabel 3250 800  1    50   Input ~ 0
+N1
+Wire Wire Line
+	3250 800  3250 1500
+Text GLabel 10550 2250 2    50   Input ~ 0
+P-_PLC
+Wire Wire Line
+	10300 2150 10300 2250
+Wire Wire Line
+	10300 2250 10550 2250
+Wire Wire Line
+	10050 2050 10400 2050
+Wire Wire Line
+	10050 2150 10300 2150
+Wire Bus Line
+	10150 2700 10550 2700
+Wire Wire Line
+	4250 1800 4100 1800
+Wire Wire Line
+	4100 1800 4100 2750
+Wire Wire Line
+	4100 2750 4250 2750
+Wire Wire Line
+	4100 2750 4100 3800
+Wire Wire Line
+	4100 3800 4250 3800
+Connection ~ 4100 2750
+Wire Wire Line
+	4100 3800 4100 4850
+Wire Wire Line
+	4100 4850 4250 4850
+Connection ~ 4100 3800
+Wire Wire Line
+	4100 4850 4100 5900
+Wire Wire Line
+	4100 5900 4250 5900
+Connection ~ 4100 4850
+Wire Wire Line
+	10300 2250 10300 6150
+Wire Wire Line
+	10300 6150 4100 6150
+Connection ~ 10300 2250
+Connection ~ 4100 5900
+Wire Wire Line
+	2650 1400 4250 1400
+Wire Wire Line
+	2650 2350 4250 2350
+Wire Wire Line
+	2650 3400 4250 3400
+Wire Wire Line
+	2650 4450 4250 4450
+Wire Wire Line
+	2650 5500 4250 5500
+Wire Bus Line
+	2750 5100 2750 5200
+Wire Bus Line
+	2750 5200 2750 5300
+Wire Bus Line
+	2750 5200 7300 5200
+Wire Bus Line
+	2750 4050 2750 4150
+Connection ~ 2750 5200
+Wire Bus Line
+	2750 4150 2750 4250
+Wire Bus Line
+	2750 4150 7200 4150
+Wire Bus Line
+	2750 3000 2750 3100
+Connection ~ 2750 4150
+Wire Bus Line
+	2750 3100 2750 3200
+Wire Bus Line
+	2750 3100 7100 3100
+Wire Bus Line
+	2750 2000 2750 2100
+Connection ~ 2750 3100
+Wire Bus Line
+	2750 2100 2750 2200
+Wire Bus Line
+	2750 2100 7500 2100
+Wire Bus Line
+	2750 900  2750 1000
+Connection ~ 2750 2100
+Wire Bus Line
+	2750 1000 2750 1100
+Wire Bus Line
+	2750 1000 7600 1000
+Connection ~ 2750 1000
+Text GLabel 3400 800  1    50   Input ~ 0
+N2
+Text GLabel 3550 800  1    50   Input ~ 0
+N3
+Wire Wire Line
+	2650 2450 3400 2450
+Wire Wire Line
+	3400 2450 3400 3500
+Wire Wire Line
+	3400 3500 2650 3500
+Connection ~ 3400 2450
+Wire Wire Line
+	3400 800  3400 2450
+Wire Wire Line
+	3550 800  3550 4550
+Wire Wire Line
+	2650 5600 3550 5600
+Wire Wire Line
+	2650 4550 3550 4550
+Connection ~ 3550 4550
+Wire Wire Line
+	3550 4550 3550 5600
+$Comp
+L Device:CircuitBreaker_1P CBК1_3
+U 1 1 60DA9E8B
+P 5650 3400
+F 0 "CBК1_3" V 5500 3300 50  0000 C CNN
+F 1 "10А" V 5500 3650 50  0000 C CNN
+F 2 "" H 5650 3400 50  0001 C CNN
+F 3 "~" H 5650 3400 50  0001 C CNN
+	1    5650 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 2350 5400 2350
+Wire Wire Line
+	4850 3400 5350 3400
+Wire Wire Line
+	6300 2350 6300 3400
+Wire Wire Line
+	6300 3400 5950 3400
+Connection ~ 6300 2350
+Entry Wire Line
+	2650 6250 2750 6350
+Entry Wire Line
+	2650 6150 2750 6250
+Entry Wire Line
+	2650 6050 2750 6150
+$Comp
+L Connector:Conn_01x03_Male JК1_11
+U 1 1 6139A339
+P 2450 6150
+F 0 "JК1_11" H 2000 6350 50  0000 C CNN
+F 1 "ТП_снаружи" H 2400 6350 50  0000 C CNN
+F 2 "" H 2450 6150 50  0001 C CNN
+F 3 "~" H 2450 6150 50  0001 C CNN
+	1    2450 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 6139A33F
+P 1950 6150
+F 0 "J?" H 1978 6176 50  0001 L CNN
+F 1 "Conn_01x03_Female" H 1978 6130 50  0001 L CNN
+F 2 "" H 1950 6150 50  0001 C CNN
+F 3 "~" H 1950 6150 50  0001 C CNN
+	1    1950 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6050 1050 6050
+Wire Wire Line
+	950  6250 950  6050
+Wire Wire Line
+	1750 6250 950  6250
+Wire Wire Line
+	1550 6150 1750 6150
+Wire Wire Line
+	1550 6050 1750 6050
+$Comp
+L Device:Thermistor_NTC_3wire TH?
+U 1 1 6139A34A
+P 1300 6050
+F 0 "TH?" V 1010 6050 50  0001 C CNN
+F 1 "Thermistor_NTC_3wire" V 1101 6050 50  0001 C CNN
+F 2 "" H 1300 6100 50  0001 C CNN
+F 3 "~" H 1300 6100 50  0001 C CNN
+	1    1300 6050
+	0    1    1    0   
+$EndComp
+Entry Wire Line
+	7300 3450 7400 3350
+Wire Wire Line
+	7400 3350 8350 3350
+Wire Wire Line
+	7400 3450 8350 3450
+Entry Wire Line
+	7300 3550 7400 3450
+Entry Wire Line
+	7400 3750 7500 3650
+Entry Wire Line
+	7400 3850 7500 3750
+Entry Wire Line
+	7400 3950 7500 3850
+Wire Wire Line
+	7400 3550 7600 3550
+Wire Wire Line
+	7600 3550 7600 3600
+Wire Wire Line
+	7600 3650 7500 3650
+Wire Wire Line
+	7600 3600 8350 3600
+Connection ~ 7600 3600
+Wire Wire Line
+	7600 3600 7600 3650
+Wire Wire Line
+	7500 3750 8350 3750
+Wire Wire Line
+	7500 3850 8350 3850
+Wire Bus Line
+	5700 5300 7400 5300
+Text GLabel 10600 4800 2    50   Input ~ 0
+С1_L
+Entry Wire Line
+	8150 4500 8250 4400
+Entry Wire Line
+	8150 4600 8250 4500
+Wire Wire Line
+	8250 4400 8350 4400
+Wire Wire Line
+	8250 4500 8350 4500
+Wire Bus Line
+	8150 4800 10600 4800
+Wire Bus Line
+	2750 6150 2750 6250
+Wire Bus Line
+	2750 6250 2750 6350
+Wire Bus Line
+	5700 5300 5700 6250
+Connection ~ 2750 6250
+$Comp
+L plc:ПВТ10 UK1_1
+U 1 1 613CF41D
+P 1250 6550
+F 0 "UK1_1" H 1050 6650 50  0000 C CNN
+F 1 "ПВТ10" H 1300 6650 50  0000 C CNN
+F 2 "" H 1250 6650 50  0001 C CNN
+F 3 "" H 1250 6650 50  0001 C CNN
+	1    1250 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L plc:ПВТ10 UK1_2
+U 1 1 613DB422
+P 1250 7200
+F 0 "UK1_2" H 1050 7300 50  0000 C CNN
+F 1 "ПВТ10" H 1300 7300 50  0000 C CNN
+F 2 "" H 1250 7300 50  0001 C CNN
+F 3 "" H 1250 7300 50  0001 C CNN
+	1    1250 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male JK1_12
+U 1 1 613E412F
+P 2450 6700
+F 0 "JK1_12" H 1800 6950 50  0000 C CNN
+F 1 "Темп_влаж_ванна" H 2300 6950 50  0000 C CNN
+F 2 "" H 2450 6700 50  0001 C CNN
+F 3 "~" H 2450 6700 50  0001 C CNN
+	1    2450 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 613E4CAD
+P 1950 6700
+F 0 "J?" H 1978 6676 50  0001 L CNN
+F 1 "Conn_01x04_Female" H 1978 6630 50  0001 L CNN
+F 2 "" H 1950 6700 50  0001 C CNN
+F 3 "~" H 1950 6700 50  0001 C CNN
+	1    1950 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male JK1_13
+U 1 1 613F27DB
+P 2450 7350
+F 0 "JK1_13" H 1800 7600 50  0000 C CNN
+F 1 "Темп_влаж_комната" H 2350 7600 50  0000 C CNN
+F 2 "" H 2450 7350 50  0001 C CNN
+F 3 "~" H 2450 7350 50  0001 C CNN
+	1    2450 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 613F27E1
+P 1950 7350
+F 0 "J?" H 1978 7326 50  0001 L CNN
+F 1 "Conn_01x04_Female" H 1978 7280 50  0001 L CNN
+F 2 "" H 1950 7350 50  0001 C CNN
+F 3 "~" H 1950 7350 50  0001 C CNN
+	1    1950 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 6600 1750 6600
+Wire Wire Line
+	1750 6700 1500 6700
+Wire Wire Line
+	1500 6800 1750 6800
+Wire Wire Line
+	1500 6900 1750 6900
+Wire Wire Line
+	1500 7250 1750 7250
+Wire Wire Line
+	1500 7350 1750 7350
+Wire Wire Line
+	1500 7450 1750 7450
+Wire Wire Line
+	1500 7550 1750 7550
+Wire Wire Line
+	2900 7250 2900 6600
+Wire Wire Line
+	3000 7350 3000 6700
+Wire Wire Line
+	3100 7450 3100 6800
+Wire Wire Line
+	3200 7550 3200 6900
+Wire Wire Line
+	4100 6150 4100 5900
+Wire Bus Line
+	2750 6250 5700 6250
+Wire Wire Line
+	2650 6600 2900 6600
+Wire Wire Line
+	2650 6700 3000 6700
+Wire Wire Line
+	2650 6800 3100 6800
+Wire Wire Line
+	2650 6900 3200 6900
+Wire Wire Line
+	2650 7250 2900 7250
+Wire Wire Line
+	2650 7350 3000 7350
+Wire Wire Line
+	2650 7450 3100 7450
+Wire Wire Line
+	2650 7550 3200 7550
+Wire Wire Line
+	4100 6150 4100 6600
+Wire Wire Line
+	4100 6600 2900 6600
+Connection ~ 4100 6150
+Connection ~ 2900 6600
+Connection ~ 10400 2050
+Wire Wire Line
+	10400 2050 10550 2050
+Connection ~ 3000 6700
+Wire Wire Line
+	10400 2050 10400 6250
+Entry Wire Line
+	6400 6800 6500 6700
+Entry Wire Line
+	6400 6900 6500 6800
+Wire Wire Line
+	3200 6900 6400 6900
+Connection ~ 3200 6900
+Wire Wire Line
+	3100 6800 6400 6800
+Connection ~ 3100 6800
+Text GLabel 10500 6350 2    50   Input ~ 0
+DEV_RS-485
+Wire Bus Line
+	10500 6350 6500 6350
+Wire Wire Line
+	10400 6250 6300 6250
+Wire Wire Line
+	6300 6250 6300 6700
+Wire Wire Line
+	3000 6700 6300 6700
+Wire Bus Line
+	10150 2500 10150 2700
+Wire Bus Line
+	8150 4500 8150 4800
+Wire Bus Line
+	6500 6350 6500 6800
+Wire Bus Line
+	7600 1000 7600 2150
+Wire Bus Line
+	7500 2100 7500 2450
+Wire Bus Line
+	7300 3450 7300 5200
+Wire Bus Line
+	7100 2800 7100 3100
+Wire Bus Line
+	7200 3100 7200 4150
+Wire Bus Line
+	7400 3750 7400 5300
+Wire Bus Line
+	5200 800  5200 5800
+$EndSCHEMATC

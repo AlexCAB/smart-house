@@ -1,0 +1,292 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Силовая, лист 1"
+Date "2021-06-18"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 10750 3950 2    50   Input ~ 0
+C_N1
+Text GLabel 10750 3750 2    50   Input ~ 0
+C_F1
+$Comp
+L Connector:Conn_01x05_Male JP1_1
+U 1 1 60EBB90B
+P 950 1450
+F 0 "JP1_1" H 800 1500 50  0000 C CNN
+F 1 "Ввод" H 800 1400 50  0000 C CNN
+F 2 "" H 950 1450 50  0001 C CNN
+F 3 "~" H 950 1450 50  0001 C CNN
+	1    950  1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60EBDB55
+P 1300 1750
+F 0 "#PWR?" H 1300 1500 50  0001 C CNN
+F 1 "GNDREF" H 1305 1577 50  0001 C CNN
+F 2 "" H 1300 1750 50  0001 C CNN
+F 3 "" H 1300 1750 50  0001 C CNN
+	1    1300 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1650 1300 1650
+Wire Wire Line
+	1300 1650 1300 1750
+$Comp
+L Device:CircuitBreaker_3P CBP1_1
+U 1 1 60EBED2B
+P 2800 1450
+F 0 "CBP1_1" V 2350 1350 50  0000 L CNN
+F 1 "32A" V 2450 1400 50  0000 L CNN
+F 2 "" H 3100 1350 50  0001 C CNN
+F 3 "~" H 3050 1450 50  0001 C CNN
+	1    2800 1450
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1150 1350 1950 1350
+Wire Wire Line
+	1950 1350 1950 1450
+Wire Wire Line
+	1150 1450 1850 1450
+Wire Wire Line
+	1850 1450 1850 1650
+Wire Wire Line
+	4600 1350 4500 1350
+Wire Wire Line
+	4500 1350 4500 1650
+Wire Wire Line
+	4500 1650 4600 1650
+Wire Wire Line
+	4500 1650 4500 1950
+Wire Wire Line
+	4500 1950 4600 1950
+Connection ~ 4500 1650
+Wire Wire Line
+	4350 1450 4350 1550
+Wire Wire Line
+	4350 1550 4600 1550
+Wire Wire Line
+	4350 1650 4350 1850
+Wire Wire Line
+	4350 1850 4600 1850
+Wire Wire Line
+	1150 1550 1750 1550
+Wire Wire Line
+	1750 1550 1750 2100
+Wire Wire Line
+	4500 2100 4500 1950
+Connection ~ 4500 1950
+$Comp
+L power_1-rescue:УЗО-plc U4
+U 1 1 60ECC59B
+P 6800 1150
+F 0 "U4" H 6700 1150 50  0000 C CNN
+F 1 "УЗО" H 6850 1150 50  0000 C CNN
+F 2 "" H 6800 1150 50  0001 C CNN
+F 3 "" H 6800 1150 50  0001 C CNN
+	1    6800 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_1-rescue:РН-plc U1
+U 1 1 60ECDE34
+P 4950 1100
+F 0 "U1" H 4850 1050 50  0000 C CNN
+F 1 "РН" H 5000 1050 50  0000 C CNN
+F 2 "" H 4950 1100 50  0001 C CNN
+F 3 "" H 4950 1100 50  0001 C CNN
+	1    4950 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_1-rescue:РН-plc U2
+U 1 1 60ECFCAC
+P 4950 1400
+F 0 "U2" H 4850 1350 50  0000 C CNN
+F 1 "РН" H 5000 1350 50  0000 C CNN
+F 2 "" H 4950 1400 50  0001 C CNN
+F 3 "" H 4950 1400 50  0001 C CNN
+	1    4950 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_1-rescue:РН-plc U3
+U 1 1 60ED01AB
+P 4950 1700
+F 0 "U3" H 4850 1650 50  0000 C CNN
+F 1 "РН" H 5000 1650 50  0000 C CNN
+F 2 "" H 4950 1700 50  0001 C CNN
+F 3 "" H 4950 1700 50  0001 C CNN
+	1    4950 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_1-rescue:УЗО-plc U5
+U 1 1 60ED07B9
+P 6800 1450
+F 0 "U5" H 6700 1450 50  0000 C CNN
+F 1 "УЗО" H 6850 1450 50  0000 C CNN
+F 2 "" H 6800 1450 50  0001 C CNN
+F 3 "" H 6800 1450 50  0001 C CNN
+	1    6800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_1-rescue:УЗО-plc U6
+U 1 1 60ED0E15
+P 6800 1750
+F 0 "U6" H 6700 1750 50  0000 C CNN
+F 1 "УЗО" H 6850 1750 50  0000 C CNN
+F 2 "" H 6800 1750 50  0001 C CNN
+F 3 "" H 6800 1750 50  0001 C CNN
+	1    6800 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 1350 6350 1350
+Wire Wire Line
+	6350 1350 6350 1650
+Wire Wire Line
+	6350 1650 6450 1650
+Wire Wire Line
+	6350 1650 6350 1950
+Wire Wire Line
+	6350 1950 6450 1950
+Connection ~ 6350 1650
+Wire Wire Line
+	6350 1950 6350 2100
+Connection ~ 6350 1950
+$Comp
+L power_1-rescue:CONTACTOR-plc C1
+U 1 1 60ED83D2
+P 9100 1100
+F 0 "C1" H 9100 1215 50  0000 C CNN
+F 1 "CONTACTOR" H 9100 1124 50  0000 C CNN
+F 2 "" H 9100 1100 50  0001 C CNN
+F 3 "" H 9100 1100 50  0001 C CNN
+	1    9100 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 1450 8650 1450
+Wire Wire Line
+	8650 1450 8650 1850
+Wire Wire Line
+	8850 1350 8550 1350
+Wire Wire Line
+	8550 1350 8550 1550
+Wire Wire Line
+	1150 1250 2500 1250
+Wire Wire Line
+	1950 1450 2500 1450
+Wire Wire Line
+	1850 1650 2500 1650
+Wire Wire Line
+	1750 2100 4500 2100
+Wire Wire Line
+	3100 1650 4350 1650
+Wire Wire Line
+	3100 1450 4350 1450
+Wire Wire Line
+	3100 1250 4600 1250
+Wire Wire Line
+	4500 2100 6350 2100
+Connection ~ 4500 2100
+Wire Wire Line
+	5300 1850 6450 1850
+Wire Wire Line
+	5300 1550 6450 1550
+Wire Wire Line
+	5300 1250 6450 1250
+Wire Wire Line
+	7150 1250 7900 1250
+Wire Wire Line
+	7150 1550 8550 1550
+Wire Wire Line
+	7150 1850 8650 1850
+Text GLabel 10750 1250 2    50   Input ~ 0
+F1
+Text GLabel 10750 1400 2    50   Input ~ 0
+F2
+Text GLabel 10750 1550 2    50   Input ~ 0
+F3
+Text GLabel 10750 2000 2    50   Input ~ 0
+N1
+Text GLabel 10750 2150 2    50   Input ~ 0
+N2
+Text GLabel 10750 2300 2    50   Input ~ 0
+N3
+Wire Wire Line
+	9350 1250 10750 1250
+Wire Wire Line
+	9350 1350 10550 1350
+Wire Wire Line
+	10550 1350 10550 1400
+Wire Wire Line
+	10550 1400 10750 1400
+Wire Wire Line
+	9350 1450 10450 1450
+Wire Wire Line
+	10450 1450 10450 1550
+Wire Wire Line
+	10450 1550 10750 1550
+Wire Wire Line
+	7150 1350 7700 1350
+Wire Wire Line
+	8350 2000 10750 2000
+Wire Wire Line
+	8350 1350 8350 2000
+Wire Wire Line
+	7150 1650 8200 1650
+Wire Wire Line
+	8200 1650 8200 2150
+Wire Wire Line
+	8200 2150 10750 2150
+Wire Wire Line
+	7150 1950 8050 1950
+Wire Wire Line
+	8050 1950 8050 2300
+Wire Wire Line
+	8050 2300 10750 2300
+Text GLabel 10750 2900 2    50   Input ~ 0
+P1_P_ON
+Connection ~ 7900 1250
+Wire Wire Line
+	7900 1250 8850 1250
+Connection ~ 7700 1350
+Wire Wire Line
+	7700 1350 8350 1350
+Wire Wire Line
+	7900 3750 10750 3750
+Wire Wire Line
+	8850 1600 8750 1600
+Wire Wire Line
+	7900 1250 7900 3750
+Wire Wire Line
+	7700 1350 7700 3950
+Wire Wire Line
+	7700 3950 8750 3950
+Wire Wire Line
+	8750 1600 8750 3950
+Connection ~ 8750 3950
+Wire Wire Line
+	8750 3950 10750 3950
+Wire Wire Line
+	9350 1600 9450 1600
+Wire Wire Line
+	9450 1600 9450 2900
+Wire Wire Line
+	9450 2900 10750 2900
+$EndSCHEMATC

@@ -1,0 +1,38 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Dimmer-plc
+#
+DEF Dimmer-plc U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Dimmer-plc" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 -50 250 -500 0 1 0 N
+S -250 150 -250 150 0 1 0 N
+X L_IN 1 -350 -100 100 R 50 50 1 1 W
+X N_IN 2 -350 -200 100 R 50 50 1 1 W
+X L_OUT 3 350 -100 100 L 50 50 1 1 w
+X N_OUT 4 350 -200 100 L 50 50 1 1 w
+X 0-10(+) 5 -350 -350 100 R 50 50 1 1 I
+X 0-10(-) 6 -350 -450 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# LS-plc
+#
+DEF LS-plc U 0 40 Y Y 1 F N
+F0 "U" 0 50 50 H V C CNN
+F1 "LS-plc" 0 150 50 H V C CNN
+F2 "" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+DRAW
+S -150 0 200 -300 0 1 0 N
+X + 1 300 -50 100 L 50 50 1 1 W
+X OUT 2 300 -150 100 L 50 50 1 1 O
+X - 3 300 -250 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
