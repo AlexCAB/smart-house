@@ -33,10 +33,10 @@ def main() -> None:
         r4 = instrument.read_register(registeraddress=4, number_of_decimals=0)
         r5 = instrument.read_register(registeraddress=5, number_of_decimals=0)
 
-        print(f"r0 = {r0}")  # Положение десятичной точки в целом значении для входа 1
-        print(f"r1 = {r1}")  # Целое значение измерение входа 1 со смещением точки
+        print(f"r0 = {r0}")       # Положение десятичной точки в целом значении для входа 1
+        print(f"r1 = {r1}")       # Целое значение измерение входа 1 со смещением точки
         print(f"r2 = {hex(r2)}")  # Статус измерения входа
-        print(f"r3 = {r3}")  # Циклическое время измерения входа
+        print(f"r3 = {r3}")       # Циклическое время измерения входа
         print(f"r4 = {hex(r4)}")  # Измерение входа 1 в представлении с плавающей точкой
         print(f"r5 = {hex(r5)}")  #
 
