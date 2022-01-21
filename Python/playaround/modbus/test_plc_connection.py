@@ -28,8 +28,9 @@ def main() -> None:
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sock.connect(('10.0.6.10', 502))
 
-    # message = tcp.read_holding_registers(slave_id=1, starting_address=0, quantity=1)
-    message = tcp.write_single_register(slave_id=1, address=0, value=100)
+    message = tcp.read_holding_registers(slave_id=1, starting_address=2, quantity=1)
+    # message = tcp.read_coils(slave_id=1, starting_address=32, quantity=8)
+    # message = tcp.write_single_register(slave_id=1, address=2, value=100)
 
     response = tcp.send_message(message, sock)
 
